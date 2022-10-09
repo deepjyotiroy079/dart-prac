@@ -2,6 +2,7 @@ void main() {
   String greet = greeting();
   print(greet);
   display();
+  print(getAge());
 }
 
 void display() {
@@ -10,3 +11,6 @@ void display() {
 String greeting() {
   return 'hello';
 }
+
+// one line function defination
+int getAge() => 19;
